@@ -72,67 +72,67 @@ function octalToBinary(input)//12
 
 switch(userResponse)
 {
-  case 1:
-  const input1 = readLineSync.question('Please enter your input in binary\n');
-  console.log(binaryToDecimal(input1));
-  break;
+   case 1:
+   const input1 = readLineSync.question('Please enter your input in binary\n');
+   console.log(binaryToDecimal(input1));
+   break;
 
-  case 2:
-  const input2 = readLineSync.question('Please enter your input in binary\n');
-  console.log(binaryToHex(input2));
-  break;
+   case 2:
+   const input2 = readLineSync.question('Please enter your input in binary\n');
+   console.log(binaryToHex(input2));
+   break;
 
-  case 3:
-  const input3 = readLineSync.question('Please enter your input in binary\n');
-  console.log(binaryToOctal(input3));
-  break;
+   case 3:
+   const input3 = readLineSync.question('Please enter your input in binary\n');
+   console.log(binaryToOctal(input3));
+   break;
 
-  case 4:
-  const input4 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
-  console.log(decimalToBinary(input4));
-  break;
+   case 4:
+   const input4 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
+   console.log(decimalToBinary(input4));
+   break;
 
-  case 5:
-  const input5 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
-  console.log(decimalToHex(input5));
-  break;
+   case 5:
+   const input5 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
+   console.log(decimalToHex(input5));
+   break;
 
-  case 6:
-  const input6 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
-  console.log(decimalToOctal(input6));
-  break;
+   case 6:
+   const input6 = parseInt(readLineSync.question('Please enter your input in decimal\n'));
+   console.log(decimalToOctal(input6));
+   break;
 
-  case 7:
-  const input7 = readLineSync.question('Please enter your input in hex\n');
-  console.log(hexToDecimal(input7));
-  break;
+   case 7:
+   const input7 = readLineSync.question('Please enter your input in hex\n');
+   console.log(hexToDecimal(input7));
+   break;
 
-  case 8:
-  const input8 = readLineSync.question('Please enter your input in hex\n');
-  console.log(hexToOctal(input8));
-  break;
+   case 8:
+   const input8 = readLineSync.question('Please enter your input in hex\n');
+   console.log(hexToOctal(input8));
+   break;
 
-  case 9:
-  const input9 = readLineSync.question('Please enter your input in hex\n');
-  console.log(hexToBinary(input9));
-  break;
+   case 9:
+   const input9 = readLineSync.question('Please enter your input in hex\n');
+   console.log(hexToBinary(input9));
+   break;
 
-  case 10:
-  const input10 = readLineSync.question('Please enter your input in octal\n');
-  console.log(octalToDecimal(input10));
-  break;
+   case 10:
+   const input10 = readLineSync.question('Please enter your input in octal\n');
+   console.log(octalToDecimal(input10));
+   break;
 
-  case 11:
-  const input11 = readLineSync.question('Please enter your input in octal\n');
-  console.log(octalToHex(input11));
-  break;
+   case 11:
+   const input11 = readLineSync.question('Please enter your input in octal\n');
+   console.log(octalToHex(input11));
+   break;
 
-  case 12:
-  const input12 = readLineSync.question('Please enter your input in octal\n');
-  console.log(octalToBinary(input12));
-  break;
+   case 12:
+   const input12 = readLineSync.question('Please enter your input in octal\n');
+   console.log(octalToBinary(input12));
+   break;
 
-  default:
-  console.log('Invalid Option');
-  break;
+   default:
+   console.log('Invalid Option');
+   break;
 }
